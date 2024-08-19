@@ -1,0 +1,48 @@
+[sh:] df -h
+Filesystem                Size      Used Available Use% Mounted on
+ubi0:rootfs              31.8M     31.8M         0 100% /
+tmpfs                     5.0M     56.0K      4.9M   1% /var
+tmpfs                    58.6M     16.0K     58.6M   0% /tmp
+tmpfs                   512.0K      4.0K    508.0K   1% /dev
+ubi1_0                   58.1M      2.1M     56.0M   4% /data
+
+[sh:] cd /
+drwxr-xr-x    2 root     root          4312 Sep 25 17:12 bin
+drwxr-xr-x   10 1000     1000           792 Sep 25 17:12 data
+-rw-r--r--    1 root     root           358 Aug  5 11:07 default.prop
+drwxr-xr-x    6 root     root          4020 Sep 25 17:12 dev
+drwxr-xr-x   20 root     root          4064 Sep 25 17:12 etc
+drwxr-xr-x    3 root     root           224 Sep 25 17:12 home
+drwxr-xr-x   11 root     root          3784 Sep 25 17:12 lib
+drwxr-xr-x    2 root     root           160 Aug  5 11:07 media
+drwxr-xr-x    2 root     root             0 Sep 25 17:12 mnt
+drwxr-xr-x    2 root     root           160 Aug  5 11:07 overlay
+dr-xr-xr-x   88 root     root             0 Jan  1  1970 proc
+drwxrwxr-x    2 root     root           224 Sep 25 17:12 rom
+drwxr-xr-x    2 root     root           160 Aug  5 11:07 root
+drwxr-xr-x    2 root     root           160 Aug  5 11:07 run
+drwxr-xr-x    2 root     root          3272 Sep 25 17:12 sbin
+dr-xr-xr-x   12 root     root             0 Jan  1  1970 sys
+drwxr-xr-x    3 root     root           304 Aug  5 11:07 system
+drwxrwxrwt    9 root     root           320 Sep 25 17:32 tmp
+drwxr-xr-x    7 root     root           552 Aug  5 11:07 usr
+drwxr-xr-x    9 root     root           180 Sep 25 17:12 var
+drwxr-xr-x    2 root     root           160 Aug  5 11:07 www
+
+
+[sh:] cat /proc/mtd
+dev:    size   erasesize  name
+mtd0: 00100000 00020000 "mcu"
+mtd1: 00040000 00020000 "spl"
+mtd2: 00040000 00020000 "env"
+mtd3: 00080000 00020000 "uboot_a"
+mtd4: 00080000 00020000 "uboot_b"
+mtd5: 00080000 00020000 "boot_music"
+mtd6: 00080000 00020000 "dtb"
+mtd7: 00080000 00020000 "misc"
+mtd8: 00080000 00020000 "key"
+mtd9: 00500000 00020000 "kernel"
+mtd10: 00400000 00020000 "recovery_a"
+mtd11: 00400000 00020000 "recovery_b"
+mtd12: 02880000 00020000 "rootfs"
+mtd13: 04600000 00020000 "data"

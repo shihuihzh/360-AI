@@ -1,0 +1,13 @@
+#!/bin/sh /etc/rc.common
+START=89
+start(){
+p=/data/system/wpa_supplicant.conf
+cat /etc/wpa_supplicant.conf > $p 
+cat >>$p<<EOF
+network={
+scan_ssid=1
+ssid="{wifi ssid}"
+psk="{wifi password}"
+}
+EOF
+}
