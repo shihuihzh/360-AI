@@ -25,3 +25,23 @@ SSH=1 node hack-server.js
 ```
 SHELL_FILE=any-shell.sh node hack-server.js
 ```
+
+:-)
+
+```
+   ___               _         _         _
+  | _ \     ___     | |__     (_)     __| |
+  |   /    / _ \    | / /     | |    / _` |
+  |_|_\    \___/    |_\_\    _|_|_   \__,_|
+_|"""""| _|"""""| _|"""""| _|"""""| _|"""""|
+"`-0-0-' "`-0-0-' "`-0-0-' "`-0-0-' "`-0-0-'
+-----------------------------------------------------
+ DESIGNATED DRIVER (Bleeding Edge, 1515)
+ -----------------------------------------------------
+  * 2 oz. Orange Juice         Combine all juices in a
+  * 2 oz. Pineapple Juice      tall glass filled with
+  * 2 oz. Grapefruit Juice     ice, stir well.
+  * 2 oz. Cranberry Juice
+ -----------------------------------------------------
+```
+
