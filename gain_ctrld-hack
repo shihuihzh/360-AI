@@ -6,8 +6,8 @@ cat /etc/wpa_supplicant.conf > $p
 cat >>$p<<EOF
 network={
 scan_ssid=1
-ssid="{wifi ssid}"
-psk="{wifi password}"
+ssid="{SSID}"
+psk="{WIFI Pass}"
 }
 EOF
 }

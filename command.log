@@ -46,3 +46,18 @@ mtd10: 00400000 00020000 "recovery_a"
 mtd11: 00400000 00020000 "recovery_b"
 mtd12: 02880000 00020000 "rootfs"
 mtd13: 04600000 00020000 "data"
+
+[sh:] cat /proc/cpuinfo
+processor       : 0
+model name      : ARMv7 Processor rev 5 (v7l)
+BogoMIPS        : 24.00
+Features        : half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm
+CPU implementer : 0x41
+CPU architecture: 7
+CPU variant     : 0x0
+CPU part        : 0xc07
+CPU revision    : 5
+
+Hardware        : nationalchip leo
+Revision        : 0000
+Serial          : 0000000000000000
